@@ -21,7 +21,7 @@ module.exports = function model(sequelize, types) {
         allowNull: false,
       },
       time: {
-        type: types.STRING,
+        type: types.DATE,
         defaultValue: "",
         allowNull: false,
       },

@@ -27,8 +27,8 @@ module.exports = {
         allowNull: false,
       },
       time: {
-        type: Sequelize.STRING,
-        defaultValue: "",
+        type: Sequelize.DATE,
+
         allowNull: false,
       },
     });
